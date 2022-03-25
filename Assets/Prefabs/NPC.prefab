@@ -127,5 +127,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f70c57da538841a8809e8646a341a6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GreetText: {fileID: 0}
-  dialogueNPCToSay: Hello, yes this is dog.
+  dialogueNPCToSay: Miao

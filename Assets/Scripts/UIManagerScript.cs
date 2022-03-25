@@ -2,9 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using TMPro;
 
 public class UIManagerScript : MonoBehaviour
 {
+    // sets static instance, this tells Unity that
+    // there is only ONE instance of this script
+    public static UIManagerScript Instance;
+
     bool _showDialogueBox;
     public GameObject dialogueBox;
     public GameObject jukeBoxUI;
@@ -12,6 +17,19 @@ public class UIManagerScript : MonoBehaviour
 
     // canvas UI element
     public GameObject NPCGreet_Text;
+
+    private void Awake()
+    {
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            Instance = this;
+        }
+
+    }
 
     private void OnEnable()
     {
