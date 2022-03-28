@@ -214,7 +214,7 @@ PrefabInstance:
       objectReference: {fileID: 3560190167097060703}
     - target: {fileID: 8115261122331594365, guid: 42303504a4fc90a43bc5178df9876bf2, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 2.039179
+      value: 1.7764977
       objectReference: {fileID: 0}
     - target: {fileID: 8115261122425493287, guid: 42303504a4fc90a43bc5178df9876bf2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -249,6 +249,25 @@ MonoBehaviour:
   cameraFollow_East: {fileID: 4953440292480041924}
   cameraFollow_West: {fileID: 0}
   CameraFollow_Down: {fileID: 1459248902355440480}
+--- !u!1 &4098809319314649937 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3015734346093487438, guid: 42303504a4fc90a43bc5178df9876bf2, type: 3}
+  m_PrefabInstance: {fileID: 1241849132714792479}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3101768817556619479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4098809319314649937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e54fc0e98f9b4b4f8dd46a37607a941, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 2107412047324908203, guid: 2a015ead3f7264499be9b641bced79eb, type: 3}
+  bulletDespawnTimer: 10
 --- !u!4 &4098809319314649938 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3015734346093487437, guid: 42303504a4fc90a43bc5178df9876bf2, type: 3}
