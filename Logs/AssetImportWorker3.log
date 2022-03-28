@@ -1,0 +1,290 @@
+Unity Editor version:    2021.2.15f1 (3b8567f665bb)
+Branch:                  2021.2/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.3 (Build 21E230)
+Darwin version:          21.4.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+/Applications/UnityProjects/FireProject
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+51558
+Successfully changed project path to: /Applications/UnityProjects/FireProject
+/Applications/UnityProjects/FireProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 80.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.15f1 (3b8567f665bb)
+[Subsystems] Discovering subsystems at path /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Applications/UnityProjects/FireProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Max (high power)
+Metal devices available: 1
+0: Apple M1 Max (high power)
+Using device Apple M1 Max (high power)
+Initializing Metal device caps: Apple M1 Max
+Initialize mono
+Mono path[0] = '/Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56225
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/UnityEditors/2021.2.15f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000371 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 82.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.386 seconds
+Domain Reload Profiling:
+	ReloadAssembly (387ms)
+		BeginReloadAssembly (27ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (297ms)
+			LoadAssemblies (27ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (64ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (190ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001499 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Applications/UnityProjects/FireProject/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Applications/UnityProjects/FireProject/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 79.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a segv while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Native stacktrace:
+=================================================================
+	0x12f547a34 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_dump_native_crash_info
+	0x12f50a010 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_handle_native_crash
+	0x12f4929c8 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_sigsegv_signal_handler_debug
+	0x192dc94c4 - /usr/lib/system/libsystem_platform.dylib : _sigtramp
+	0x12f679e70 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_push_ephemerons
+	0x12f6aea10 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : GC_mark_some
+	0x12f6adffc - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : GC_stopped_mark
+	0x12f6ada60 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : GC_maybe_gc
+	0x12f6ae61c - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : GC_collect_a_little_inner
+	0x12f6b02c4 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : GC_allocobj
+	0x12f6aa464 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : GC_generic_malloc_inner
+	0x12f6b0cec - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : GC_generic_malloc
+	0x12f6b4db4 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : GC_malloc_kind_global
+	0x12f67a994 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_gc_alloc_obj
+	0x12f61fc90 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_object_new_specific_checked
+	0x12f620048 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : ves_icall_object_new_specific
+	0x12bdb1134 - Unknown
+	0x15bd49524 - Unknown
+	0x15bd48ac4 - Unknown
+	0x15bd48090 - Unknown
+	0x15bd46424 - Unknown
+	0x15bd458e4 - Unknown
+	0x15bd457b4 - Unknown
+	0x15bd4425c - Unknown
+	0x15bd44048 - Unknown
+	0x15bd4361c - Unknown
+	0x15bd42ce4 - Unknown
+	0x15bd3c5c8 - Unknown
+	0x15bd3c304 - Unknown
+	0x14ff85184 - Unknown
+	0x14ff84724 - Unknown
+	0x14ff831c0 - Unknown
+	0x14ff84484 - Unknown
+	0x12f495c88 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_jit_runtime_invoke
+	0x12f61b84c - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : do_runtime_invoke
+	0x12f61b76c - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_runtime_invoke
+	0x1057efa74 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/MacOS/Unity : _Z23scripting_method_invoke18ScriptingMethodPtr18ScriptingObjectPtrR18ScriptingArgumentsP21ScriptingExceptionPtrb
+	0x1057eabe4 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/MacOS/Unity : _ZN19ScriptingInvocation6InvokeEP21ScriptingExceptionPtrb
+	0x10515cf54 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/MacOS/Unity : _ZN20BurstCompilerService12CompileAsyncE18ScriptingMethodPtrPviPFvS1_iS1_EPFvS1_12BurstLogTypePKcS6_iES6_
+	0x1051604dc - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/MacOS/Unity : _ZN20BurstCompilerService14GetDisassemblyE18ScriptingObjectPtrPKc
+	0x104bbce4c - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/MacOS/Unity : _Z42BurstCompilerService_CUSTOM_GetDisassemblyP37ScriptingBackendNativeObjectPtrOpaqueP37ScriptingBackendNativeStringPtrOpaque
+	0x12bf7fdb4 - Unknown
+	0x12bf7fbd0 - Unknown
+	0x12bf7faf8 - Unknown
+	0x12bf793c4 - Unknown
+	0x12bf78db0 - Unknown
+	0x12f495c88 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_jit_runtime_invoke
+	0x12f61b84c - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : do_runtime_invoke
+	0x12f617c8c - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_runtime_class_init_full
+	0x12f5dcc0c - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor_raw
+	0x10c472130 - Unknown
+	0x10c472004 - Unknown
+	0x10c470c8c - Unknown
+	0x12ffa25d0 - Unknown
+	0x12f495c88 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_jit_runtime_invoke
+	0x12f61b84c - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : do_runtime_invoke
+	0x12f61b76c - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_runtime_invoke
+	0x1057efa74 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/MacOS/Unity : _Z23scripting_method_invoke18ScriptingMethodPtr18ScriptingObjectPtrR18ScriptingArgumentsP21ScriptingExceptionPtrb
+	0x1057eabe4 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/MacOS/Unity : _ZN19ScriptingInvocation6InvokeEP21ScriptingExceptionPtrb
+	0x1058fa0e8 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/MacOS/Unity : _ZN9Scripting11UnityEditor21EditorAssembliesProxy33ProcessInitializeOnLoadAttributesE17ScriptingArrayPtrP21ScriptingExceptionPtr
+	0x10579cc80 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/MacOS/Unity : _ZN11MonoManager27SetupLoadedEditorAssembliesERK13dynamic_arrayIiLm0EE
+	0x10579ef9c - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/MacOS/Unity : _ZN11MonoManager17EndReloadAssemblyER19DomainReloadingData14dynamic_bitset
+	0x10579d264 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/MacOS/Unity : _ZN11MonoManager14ReloadAssemblyEv
+	0x1062e0ab4 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/MacOS/Unity : _ZL27LoadDomainAndUserAssembliesv
+	0x1062e2c10 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/MacOS/Unity : _Z18LoadUserAssembliesv
+	0x106670880 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/MacOS/Unity : _ZN11Application17InitializeProjectEv
+	0x1073f03c0 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/MacOS/Unity : -[EditorApplication applicationDidFinishLaunching:]
+	0x192e72ddc - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+	0x192f17578 - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : ___CFXRegistrationPost_block_invoke
+	0x192f174e4 - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : _CFXRegistrationPost
+	0x192e41a74 - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : _CFXNotificationPost
+	0x193cfee48 - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation : -[NSNotificationCenter postNotificationName:object:userInfo:]
+	0x1959e493c - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication _postDidFinishNotification]
+	0x1959e4654 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication _sendFinishLaunchingNotification]
+	0x1959e2078 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+	0x1959e1c58 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+	0x193d2b9e8 - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation : -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+	0x193d2b820 - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation : _NSAppleEventManagerGenericHandler
+	0x1996098f4 - /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE : _AppleEventsCheckInAppWithBlock
+	0x19960924c - /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE : _AppleEventsCheckInAppWithBlock
+	0x1996023f8 - /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE : aeProcessAppleEvent
+	0x19baae3fc - /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox : AEProcessAppleEvent
+	0x1959dbfa4 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : _DPSNextEvent
+	0x1959da4c4 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+	0x1959cc690 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication run]
+	0x19599dda8 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : NSApplicationMain
+	0x1073ee8c4 - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/MacOS/Unity : _Z10EditorMainiPPKc
+	0x1073eebfc - /Applications/UnityEditors/2021.2.15f1/Unity.app/Contents/MacOS/Unity : main
+	0x10aae5088 - Unknown
+
+=================================================================
+	Telemetry Dumper:
+=================================================================
+Pkilling 0x6430142464x from 0x4474635648x
+Pkilling 0x11125551104x from 0x4474635648x
+Pkilling 0x6421557248x from 0x4474635648x
+Pkilling 0x6432288768x from 0x4474635648x
+Pkilling 0x11127697408x from 0x4474635648x
+Pkilling 0x6423703552x from 0x4474635648x
+Pkilling 0x11119112192x from 0x4474635648x
+Pkilling 0x6425849856x from 0x4474635648x
+Pkilling 0x11121258496x from 0x4474635648x
+Pkilling 0x6427996160x from 0x4474635648x
+Pkilling 0x6398291968x from 0x4474635648x
+Pkilling 0x11123404800x from 0x4474635648x
+Pkilling 0x6419410944x from 0x4474635648x
+Pkilling 0x6400438272x from 0x4474635648x
+Entering thread summarizer pause from 0x4474635648x
+Finished thread summarizer pause from 0x4474635648x.
+Failed to create breadcrumb file (null)/crash_hash_0x2395635d12
+
+Waiting for dumping threads to resume
+
+=================================================================
+	External Debugger Dump:
+=================================================================
+
+=================================================================
+	Basic Fault Address Reporting
+=================================================================
+Memory around native instruction pointer (0x12f6b0768):0x12f6b0758  88 79 68 f8 09 fc 44 d3 0a 2c 4a d3 08 0d 0a 8b  .yh...D..,J.....
+0x12f6b0768  08 21 40 f9 08 25 c9 9a 00 01 00 12 c0 03 5f d6  .!@..%........_.
+0x12f6b0778  f4 4f be a9 fd 7b 01 a9 fd 43 00 91 f3 03 00 aa  .O...{...C......
+0x12f6b0788  2f 37 00 94 1f 04 00 71 ab 00 00 54 e0 03 13 aa  /7.....q...T....
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+	  at <unknown> <0xffffffff>
+	  at System.Object:__icall_wrapper_ves_icall_object_new_specific <0x00007>
+	  at Mono.Cecil.Metadata.StringHeap:.ctor <0x00023>
+	  at Mono.Cecil.PE.ImageReader:ReadMetadataStream <0x00273>
+	  at Mono.Cecil.PE.ImageReader:ReadMetadata <0x0012f>
+	  at Mono.Cecil.PE.ImageReader:ReadImage <0x0014b>
+	  at Mono.Cecil.PE.ImageReader:ReadImage <0x00063>
+	  at Mono.Cecil.ModuleDefinition:ReadModule <0x00033>
+	  at Mono.Cecil.ModuleDefinition:ReadModule <0x00193>
+	  at Mono.Cecil.BaseAssemblyResolver:GetAssembly <0x0004f>
+	  at Mono.Cecil.BaseAssemblyResolver:SearchDirectory <0x0020b>
+	  at Mono.Cecil.BaseAssemblyResolver:Resolve <0x00043>
+	  at zzzUnity.Burst.CodeGen.AssemblyLoader:Resolve <0x0013f>
+	  at zzzUnity.Burst.CodeGen.AssemblyLoader:TryGetFullPath <0x00033>
+	  at Burst.Compiler.IL.Jit.JitCacheManager:LoadLibraryCache <0x0032b>
+	  at Burst.Compiler.IL.Jit.JitCompilerService:EnsureLibraryCacheLoaded <0x00143>
+	  at Burst.Compiler.IL.Jit.JitCompilerService:CompileInternal <0x0014f>
+	  at <Module>:runtime_invoke_void__this___object_object_intptr_int_intptr_intptr_object <0x0009b>
+	  at <unknown> <0xffffffff>
+	  at Unity.Burst.LowLevel.BurstCompilerService:GetDisassembly <0x00007>
+	  at Unity.Burst.BurstCompiler:SendCommandToCompiler <0x00057>
+	  at Unity.Burst.BurstCompiler:IsApiAvailable <0x0001f>
+	  at Unity.Burst.Editor.BurstLoader:.cctor <0x004d3>
+	  at System.Object:runtime_invoke_void <0x00067>
+	  at <unknown> <0xffffffff>
+	  at System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor <0x00007>
+	  at System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor <0x00023>
+	  at UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes <0x0044b>
+	  at <Module>:runtime_invoke_void_object <0x0006f>
+=================================================================
+Obtained 0 stack frames.
