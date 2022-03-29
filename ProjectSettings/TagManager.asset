@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CameraChanger
   - Bullet
+  - GM
   layers:
   - Default
   - TransparentFX
