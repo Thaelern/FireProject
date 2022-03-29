@@ -64,7 +64,6 @@ public class Camera_ChangeBehaviour_Script : MonoBehaviour
     {
         if(cameraFollow.transform.position.x != player_gOjt.x)
         {
-            Debug.Log("Test");
             cameraFollow.transform.position = Vector2.MoveTowards(cameraFollow.transform.position, playerController_trsform.position,cameraResetDistancePerFrame * Time.deltaTime)  ;
         }
     }
