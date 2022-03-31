@@ -8,7 +8,7 @@ public class Camera_ChangeBehaviour_Script : MonoBehaviour
     public float CameraZoomDistanceDefault5;
 
     public float ResetCameraTimer;
-
+     
 
 
     public GameObject cameraFollow;

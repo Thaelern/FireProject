@@ -9,6 +9,12 @@ public class LevelManagerScript : MonoBehaviour
 {
     static public event Action OnStartMenu;
     static public event Action OnStartMenuLeft;
+    static public event Action OnLevelSelectScene;
+    static public event Action OnLevelSelectSceneLeft;
+
+
+    // list of scenes
+    public Scene[] scenesToChooseFrom;
 
 
     private void Start()
@@ -23,7 +29,7 @@ public class LevelManagerScript : MonoBehaviour
 
     public void FuncEnterLevel01()
     {
-        SceneManager.LoadScene("Intro_Level_Lasse");
+        SceneManager.LoadScene("Vetle_Level01");
     }
 
     public void FuncInformLeftMenu()
@@ -38,9 +44,22 @@ public class LevelManagerScript : MonoBehaviour
     }
 
 
-    public void FunLoadMainMenuLevel()
+    public void FuncLoadMainMenuLevel()
     {
         SceneManager.LoadScene("Lasse_MainMenu");
+        OnStartMenu.Invoke();
+    }
+
+    public void FuncLoadLevelSelectScene()
+    {
+        SceneManager.LoadScene("Lasse_LevelSelect_Scene");
+        OnLevelSelectScene.Invoke();
+
+    }
+
+    public void FuncLeaveLevelSelectScene()
+    {
+        OnLevelSelectSceneLeft.Invoke();
     }
 
 
