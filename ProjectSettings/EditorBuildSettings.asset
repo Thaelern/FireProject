@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Intro_Level_Lasse.unity
     guid: d56df7d50f9a5402c99ad7684b856913
+  - enabled: 1
+    path: Assets/Scenes/Lasse_Settings_Menu.unity
+    guid: da867534152a14f5e931e61741ec7ada
   m_configObjects: {}

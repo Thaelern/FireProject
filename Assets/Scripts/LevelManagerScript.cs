@@ -32,4 +32,17 @@ public class LevelManagerScript : MonoBehaviour
         OnStartMenuLeft.Invoke();
     }
 
+    public void FuncLoadSettingsLevel()
+    {
+        SceneManager.LoadScene("Lasse_Settings_Menu");
+    }
+
+
+    public void FunLoadMainMenuLevel()
+    {
+        SceneManager.LoadScene("Lasse_MainMenu");
+    }
+
+
+
 }
