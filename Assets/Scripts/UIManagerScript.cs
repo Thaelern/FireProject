@@ -14,6 +14,7 @@ public class UIManagerScript : MonoBehaviour
     public GameObject dialogueBox;
     public GameObject jukeBoxUI;
     public GameObject JukeBox_UI_SongSelection;
+    public GameObject StartMenu_Canvas;
 
     // canvas UI element
     public GameObject NPCGreet_Text;
@@ -46,6 +47,10 @@ public class UIManagerScript : MonoBehaviour
         NPCMeetGreetScript.OnEnterNPC += NPCDialogue_TextOn;
         NPCMeetGreetScript.OnLeaveNPC += NPCDialogue_TextOff;
 
+        // listens for LevelManagerScript
+        LevelManagerScript.OnStartMenu += StartMenu_CanvasOn;
+        LevelManagerScript.OnStartMenuLeft += StartMenu_CanvasOff;
+
     }
 
     private void OnDisable()
@@ -60,6 +65,10 @@ public class UIManagerScript : MonoBehaviour
         // Unsub NPC
         NPCMeetGreetScript.OnEnterNPC -= NPCDialogue_TextOn;
         NPCMeetGreetScript.OnLeaveNPC -= NPCDialogue_TextOff;
+
+        // Unsub LevelManagerScript
+        LevelManagerScript.OnStartMenu -= StartMenu_CanvasOn;
+        LevelManagerScript.OnStartMenuLeft -= StartMenu_CanvasOff;
     }
 
 
@@ -94,6 +103,16 @@ public class UIManagerScript : MonoBehaviour
     private void NPCDialogue_TextOff()
     {
         NPCGreet_Text.SetActive(false);
+    }
+
+    private void StartMenu_CanvasOn()
+    {
+        StartMenu_Canvas.SetActive(true);
+    }
+
+    private void StartMenu_CanvasOff()
+    {
+        StartMenu_Canvas.SetActive(false);
     }
 
 
