@@ -19,6 +19,11 @@ namespace TarodevController {
         [SerializeField, Range(1f, 3f)] private float _maxIdleSpeed = 2;
         [SerializeField] private float _maxParticleFallSpeed = -40;
 
+
+
+        // lasse variables
+        public GameObject triggerPlayer;
+
         private IPlayerController _player;
         private bool _playerGrounded;
         private ParticleSystem.MinMaxGradient _currentGradient;
@@ -28,9 +33,40 @@ namespace TarodevController {
 
         void Update() {
             if (_player == null) return;
+            {
+                // Flip the sprite
+                if (_player.Input.X != 0)
+                {
+                    transform.localScale = new Vector3(_player.Input.X > 0 ? 1 : -1, 1, 1);
+                }
+            }
 
-            // Flip the sprite
-            if (_player.Input.X != 0) transform.localScale = new Vector3(_player.Input.X > 0 ? 1 : -1, 1, 1);
+            // script to change camera behaviour
+            // when player is moving forward
+
+            if (_player == null) return;
+            {
+
+
+                if (_player.Input.X > 0)
+                {
+
+                    //triggerPlayer.GetComponent<Camera_ChangeBehaviour_Script>().cameraFollowEast();
+                    triggerPlayer.GetComponent<Camera_ChangeBehaviour_Script>().CameraFollowRightFunc();
+                }
+                else if (_player.Input.X < 0)
+                {
+                    //triggerPlayer.GetComponent<Camera_ChangeBehaviour_Script>().CameraFollowWest();
+                    triggerPlayer.GetComponent<Camera_ChangeBehaviour_Script>().CameraFollowLeftFunc();
+                }
+                else
+                {
+                    triggerPlayer.GetComponent<Camera_ChangeBehaviour_Script>().cameraFollowReturnCenter();
+                }
+                
+            }
+
+
 
             // Lean while running
             var targetRotVector = new Vector3(0, 0, Mathf.Lerp(-_maxTilt, _maxTilt, Mathf.InverseLerp(-1, 1, _player.Input.X)));
