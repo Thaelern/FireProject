@@ -16,7 +16,7 @@ public class AudioManagerScript : MonoBehaviour
 
     private void Start()
     {
-        PlaySong(3);
+        PlaySong(2);
     }
 
     private void Update()
