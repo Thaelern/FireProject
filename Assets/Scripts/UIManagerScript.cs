@@ -14,6 +14,12 @@ public class UIManagerScript : MonoBehaviour
     public GameObject dialogueBox;
     public GameObject jukeBoxUI;
     public GameObject JukeBox_UI_SongSelection;
+    public GameObject StartMenu_Canvas;
+    public GameObject LevelSelectScene_Canvas;
+    public GameObject PauseMenu_Canvas;
+
+
+    public bool isPauseMenuActive;
 
     // canvas UI element
     public GameObject NPCGreet_Text;
@@ -31,6 +37,24 @@ public class UIManagerScript : MonoBehaviour
 
     }
 
+    private void Update()
+    {
+        if (Input.GetButtonDown("Cancel") && isPauseMenuActive == false )
+        {
+            Debug.Log("Escape pressed");
+            isPauseMenuActive = true;
+            // bring up pause menu
+            PauseMenu_Canvas.SetActive(true);
+        }
+        else if(Input.GetButtonDown("Cancel") && isPauseMenuActive == true)
+        {
+            Debug.Log("clicked escape with bool true");
+            PauseMenu_Canvas.SetActive(false);
+            isPauseMenuActive = false;
+
+        }
+    }
+
     private void OnEnable()
     {
         // Listens for the script telling if to show dialoguebox
@@ -46,6 +70,14 @@ public class UIManagerScript : MonoBehaviour
         NPCMeetGreetScript.OnEnterNPC += NPCDialogue_TextOn;
         NPCMeetGreetScript.OnLeaveNPC += NPCDialogue_TextOff;
 
+        // listens for LevelManagerScript
+        LevelManagerScript.OnStartMenu += StartMenu_CanvasOn;
+        LevelManagerScript.OnStartMenuLeft += StartMenu_CanvasOff;
+
+        // listens for level select function
+        LevelManagerScript.OnLevelSelectScene += LevelMenu_CanvasOn;
+        LevelManagerScript.OnLevelSelectSceneLeft += LevelMenu_CanvasOff;
+
     }
 
     private void OnDisable()
@@ -60,6 +92,14 @@ public class UIManagerScript : MonoBehaviour
         // Unsub NPC
         NPCMeetGreetScript.OnEnterNPC -= NPCDialogue_TextOn;
         NPCMeetGreetScript.OnLeaveNPC -= NPCDialogue_TextOff;
+
+        // Unsub LevelManagerScript
+        LevelManagerScript.OnStartMenu -= StartMenu_CanvasOn;
+        LevelManagerScript.OnStartMenuLeft -= StartMenu_CanvasOff;
+
+        // Unsublevel select function
+        LevelManagerScript.OnLevelSelectScene -= LevelMenu_CanvasOn;
+        LevelManagerScript.OnLevelSelectSceneLeft -= LevelMenu_CanvasOff;
     }
 
 
@@ -94,6 +134,37 @@ public class UIManagerScript : MonoBehaviour
     private void NPCDialogue_TextOff()
     {
         NPCGreet_Text.SetActive(false);
+    }
+
+    private void StartMenu_CanvasOn()
+    {
+        StartMenu_Canvas.SetActive(true);
+    }
+
+    private void StartMenu_CanvasOff()
+    {
+        StartMenu_Canvas.SetActive(false);
+    }
+
+    private void LevelMenu_CanvasOn()
+    {
+        LevelSelectScene_Canvas.SetActive(true);
+    }
+
+    private void LevelMenu_CanvasOff()
+    {
+        LevelSelectScene_Canvas.SetActive(false);
+    }
+
+    public void PauseMenu_CanvasOn()
+    {
+        PauseMenu_Canvas.SetActive(true);
+    }
+
+    public void PauseMenu_CanvasOff()
+    {
+        PauseMenu_Canvas.SetActive(false);
+        isPauseMenuActive = false;
     }
 
 

@@ -6,9 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/Scenes/PirateShip.unity
     guid: 7ec6615011daf4fc8a9440d01029d08c
+  - enabled: 1
+    path: Assets/Scenes/Lasse_MainMenu.unity
+    guid: 72cd7bf37f46f485d8dc20126aca03ba
+  - enabled: 1
+    path: Assets/Scenes/Lasse_Settings_Menu.unity
+    guid: da867534152a14f5e931e61741ec7ada
+  - enabled: 1
+    path: Assets/Scenes/Vetle_Level01.unity
+    guid: a73dd9e3760f444bea0b3dfa755d19fd
+  - enabled: 1
+    path: Assets/Scenes/Lasse_LevelSelect_Scene.unity
+    guid: d723bf1c3eab949ee8322db8974eda62
   m_configObjects: {}
