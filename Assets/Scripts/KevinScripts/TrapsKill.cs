@@ -19,13 +19,11 @@ public class TrapsKill : MonoBehaviour
 
     }
 
-
     public void Die()
     {
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-
 
 
 }
