@@ -13,20 +13,6 @@ public class LevelManagerScript : MonoBehaviour
     static public event Action OnLevelSelectSceneLeft;
 
 
-    // list of scenes
-    public Scene[] scenesToChooseFrom;
-
-
-    private void Start()
-    {
-        
-    }
-
-    private void Update()
-    {
- 
-    }
-
     public void FuncEnterLevel01()
     {
         SceneManager.LoadScene("Vetle_Level01");
