@@ -70,12 +70,30 @@ PrefabInstance:
     - target: {fileID: 8087679177892582009, guid: 42303504a4fc90a43bc5178df9876bf2, type: 3}
       propertyPath: _anim
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 7035992377895701611}
     - target: {fileID: 8087679177892582009, guid: 42303504a4fc90a43bc5178df9876bf2, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087679177892582009, guid: 42303504a4fc90a43bc5178df9876bf2, type: 3}
+      propertyPath: triggerPlayer
+      value: 
+      objectReference: {fileID: 1241849132465982903}
+    - target: {fileID: 8115261122331594365, guid: 42303504a4fc90a43bc5178df9876bf2, type: 3}
+      propertyPath: m_Lens.m_SensorSize.x
+      value: 1.7762376
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4647494678545658550, guid: 42303504a4fc90a43bc5178df9876bf2, type: 3}
     - {fileID: 19443692355107733, guid: 42303504a4fc90a43bc5178df9876bf2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 42303504a4fc90a43bc5178df9876bf2, type: 3}
+--- !u!1 &1241849132465982903 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 827628456, guid: 42303504a4fc90a43bc5178df9876bf2, type: 3}
+  m_PrefabInstance: {fileID: 1241849132714792479}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &7035992377895701611 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8115261124120926836, guid: 42303504a4fc90a43bc5178df9876bf2, type: 3}
+  m_PrefabInstance: {fileID: 1241849132714792479}
+  m_PrefabAsset: {fileID: 0}

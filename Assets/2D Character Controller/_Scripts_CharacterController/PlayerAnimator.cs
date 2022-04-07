@@ -46,6 +46,7 @@ namespace TarodevController {
 
             if (_player == null) return;
             {
+                /*
 
 
                 if (_player.Input.X > 0)
@@ -63,8 +64,11 @@ namespace TarodevController {
                 {
                     triggerPlayer.GetComponent<Camera_ChangeBehaviour_Script>().cameraFollowReturnCenter();
                 }
-                
+
+                */
+
             }
+            
 
 
 
