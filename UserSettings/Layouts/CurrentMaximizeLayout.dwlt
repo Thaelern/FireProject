@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 10836
+  controlID: 13445
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -86,7 +86,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 10837
+  controlID: 13446
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 10838
+  controlID: 13447
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,8 +224,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 7ad2ffff
-      m_LastClickedID: -11654
+      m_SelectedIDs: 90d2ffff
+      m_LastClickedID: -11632
       m_ExpandedIDs: 3ad2ffff44d2ffff68d2ffff7ad2ffff90d2ffff14fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -526,7 +526,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: -10.002545, y: -0.92444175, z: -0.21670985}
     speed: 2
-    m_Value: {x: -9.994346, y: -0.91676533, z: -0.21617949}
+    m_Value: {x: -10.002545, y: -0.92444175, z: -0.21670985}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -579,7 +579,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 5.1042194
     speed: 2
-    m_Value: 5.0511823
+    m_Value: 5.1042194
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -740,9 +740,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 7ad2ffff
-    m_LastClickedInstanceID: -11654
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 90d2ffff
+    m_LastClickedInstanceID: -11632
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300005c6d0000a2c700009ec70000f4b900005e6d00005a6d0000666c00008efc0000766d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -841,7 +841,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 8356117983803934776, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2

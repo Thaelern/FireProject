@@ -49882,6 +49882,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4476183656182821019, guid: 90289500e8c454e6e9fe90ca335e2bf4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.82
+      objectReference: {fileID: 0}
     - target: {fileID: 7447724287842984913, guid: 90289500e8c454e6e9fe90ca335e2bf4, type: 3}
       propertyPath: m_Name
       value: Player_KattePus
@@ -49928,6 +49932,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7447724287842984914, guid: 90289500e8c454e6e9fe90ca335e2bf4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7447724288631886091, guid: 90289500e8c454e6e9fe90ca335e2bf4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846760235023504144, guid: 90289500e8c454e6e9fe90ca335e2bf4, type: 3}
+      propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
