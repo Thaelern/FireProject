@@ -6,6 +6,8 @@ TagManager:
   tags:
   - CameraChanger
   - Bullet
+  - FireUnit
+  - GM
   layers:
   - Default
   - TransparentFX
