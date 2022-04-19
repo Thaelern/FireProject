@@ -7,29 +7,16 @@ using System;
 
 public class LevelManagerScript : MonoBehaviour
 {
+    // events
     static public event Action OnStartMenu;
     static public event Action OnStartMenuLeft;
     static public event Action OnLevelSelectScene;
     static public event Action OnLevelSelectSceneLeft;
 
 
-    // list of scenes
-    public Scene[] scenesToChooseFrom;
-
-
-    private void Start()
-    {
-        
-    }
-
-    private void Update()
-    {
- 
-    }
-
     public void FuncEnterLevel01()
     {
-        SceneManager.LoadScene("Vetle_Level01");
+        SceneManager.LoadScene("tt");
     }
 
     public void FuncInformLeftMenu()
@@ -62,6 +49,9 @@ public class LevelManagerScript : MonoBehaviour
         OnLevelSelectSceneLeft.Invoke();
     }
 
-
+    public void FuncQuitGame()
+    {
+        Application.Quit();
+    }
 
 }
