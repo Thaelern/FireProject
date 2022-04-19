@@ -19869,7 +19869,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.10735273, y: 1.2917645}
+  m_Offset: {x: 0.12360382, y: 0.013651848}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -19880,7 +19880,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2147055, y: 2.2274919}
+  m_Size: {x: 0.8139496, y: 1.6859188}
   m_EdgeRadius: 0
 --- !u!114 &3191213087574299993
 MonoBehaviour:
@@ -20045,7 +20045,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6897901215439686204
 Transform:
   m_ObjectHideFlags: 0
@@ -20073,6 +20073,7 @@ GameObject:
   - component: {fileID: 7447724287842984914}
   - component: {fileID: 7447724287842984912}
   - component: {fileID: 8408773378126237783}
+  - component: {fileID: 2125491032}
   m_Layer: 7
   m_Name: Player_KattePus
   m_TagString: Player
@@ -20149,6 +20150,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 2107412047324908203, guid: 2a015ead3f7264499be9b641bced79eb, type: 3}
   bulletDespawnTimer: 10
+--- !u!114 &2125491032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7447724287842984913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79c2ee8869d0cd14fa97c47f007add97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7447724288631886088
 GameObject:
   m_ObjectHideFlags: 0
