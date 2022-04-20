@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 957984466978025063}
   - component: {fileID: 957984466978025062}
   - component: {fileID: 957984466978025061}
-  - component: {fileID: 957984466978025060}
+  - component: {fileID: 3310375607291015884}
   m_Layer: 0
   m_Name: Killblock
   m_TagString: Untagged
@@ -112,7 +112,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &957984466978025060
+--- !u!114 &3310375607291015884
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,6 +121,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 957984466978025051}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 026ee4d76d4afc245b9972ebc558b623, type: 3}
+  m_Script: {fileID: 11500000, guid: 1719399e7d5fcdb47b67414a38f55a7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
