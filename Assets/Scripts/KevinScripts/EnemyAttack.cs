@@ -23,8 +23,10 @@ public class EnemyAttack : MonoBehaviour
 
     private void OnCollisionStay2D(Collision2D other)
     {
+        /*
         if (other.gameObject.tag == ("Player"))
         {
+            Debug.Log("touching kattepus");
             if (attackSpeed <= canAttack)
             {
                 other.gameObject.GetComponent<PlayerHealth>().UpdateHealth(-attackDamage);
@@ -35,6 +37,7 @@ public class EnemyAttack : MonoBehaviour
                 canAttack += Time.deltaTime;
             }
         }
+        */
     }
 
 
@@ -43,6 +46,21 @@ public class EnemyAttack : MonoBehaviour
         if (other.gameObject.tag == ("Player"))
         {
             target = other.transform;
+        }
+
+        if (other.gameObject.tag == ("Player"))
+        {
+            Debug.Log("touching kattepus");
+            other.gameObject.GetComponent<PlayerHealth>().Die();
+            if (attackSpeed <= canAttack)
+            {
+                other.gameObject.GetComponent<PlayerHealth>().UpdateHealth(-attackDamage);
+                canAttack = 0f;
+            }
+            else
+            {
+                canAttack += Time.deltaTime;
+            }
         }
     }
 

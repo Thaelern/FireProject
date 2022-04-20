@@ -7,20 +7,13 @@ public class EnemyDamage : MonoBehaviour
 
     [SerializeField] private float damage;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collision.tag == "Player")
+        if (collider.tag == "Player")
         {
-            collision.GetComponent<PlayerHealth>().UpdateHealth(damage);
+            Debug.Log("Colliding with player");
+            collider.GetComponent<PlayerHealth>().UpdateHealth(damage);
         }
     }
-
-
-
-
-
-
-
-
 
 }

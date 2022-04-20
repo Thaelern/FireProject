@@ -17,6 +17,7 @@ public class UIManagerScript : MonoBehaviour
     public GameObject StartMenu_Canvas;
     public GameObject LevelSelectScene_Canvas;
     public GameObject PauseMenu_Canvas;
+    public GameObject Credit_Scene_Canvas;
 
 
     public bool isPauseMenuActive;
@@ -77,6 +78,9 @@ public class UIManagerScript : MonoBehaviour
         // listens for level select function
         LevelManagerScript.OnLevelSelectScene += LevelMenu_CanvasOn;
         LevelManagerScript.OnLevelSelectSceneLeft += LevelMenu_CanvasOff;
+
+        // listens for Credit_scene_canvas / settings
+        LevelManagerScript.OnLeaveSettingsSceneLeft += Credit_Scene_CanvasOff;
 
     }
 
@@ -166,6 +170,12 @@ public class UIManagerScript : MonoBehaviour
         PauseMenu_Canvas.SetActive(false);
         isPauseMenuActive = false;
     }
+
+    public void Credit_Scene_CanvasOff()
+    {
+        // write to tell canvas to go off here
+    }
+
 
 
 }

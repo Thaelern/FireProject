@@ -12,6 +12,7 @@ public class LevelManagerScript : MonoBehaviour
     static public event Action OnStartMenuLeft;
     static public event Action OnLevelSelectScene;
     static public event Action OnLevelSelectSceneLeft;
+    static public event Action OnLeaveSettingsSceneLeft;
 
 
     public void FuncEnterLevel01()
@@ -47,6 +48,11 @@ public class LevelManagerScript : MonoBehaviour
     public void FuncLeaveLevelSelectScene()
     {
         OnLevelSelectSceneLeft.Invoke();
+    }
+
+    public void FuncLeaveSettingsScene()
+    {
+        OnLeaveSettingsSceneLeft.Invoke();
     }
 
     public void FuncQuitGame()

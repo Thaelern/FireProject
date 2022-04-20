@@ -214,6 +214,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 791366217, guid: f7e5675d7b0cc4f62a48e06ad007ef10, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2079432274, guid: f7e5675d7b0cc4f62a48e06ad007ef10, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 116342765477491201, guid: f7e5675d7b0cc4f62a48e06ad007ef10, type: 3}
       propertyPath: m_Name
       value: --System Managers --
@@ -261,6 +269,14 @@ PrefabInstance:
     - target: {fileID: 116342765477491202, guid: f7e5675d7b0cc4f62a48e06ad007ef10, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968697301933968024, guid: f7e5675d7b0cc4f62a48e06ad007ef10, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925601385518305857, guid: f7e5675d7b0cc4f62a48e06ad007ef10, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7e5675d7b0cc4f62a48e06ad007ef10, type: 3}
