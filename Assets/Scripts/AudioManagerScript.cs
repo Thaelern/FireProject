@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -17,7 +17,7 @@ public class AudioManagerScript : MonoBehaviour
     private void Awake()
     {
 
-        if (SceneManager.GetActiveScene().name == "tt")
+        /*if (SceneManager.GetActiveScene().name == "tt")
         {
             Debug.Log("tt loaded");
             PlaySong(1);
@@ -28,6 +28,11 @@ public class AudioManagerScript : MonoBehaviour
             Debug.Log("main menu");
             PlaySong(0);
         }
+        */
+
+
+        PlaySong(1);
+
     }
 
 
