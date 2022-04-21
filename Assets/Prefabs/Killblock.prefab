@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4266924983338212040, guid: d0b46e4a1d63c2d4d9dbf3d5f02484cb, type: 3}
       propertyPath: m_Name
-      value: EnemyWallFall (23)
+      value: Killblock
       objectReference: {fileID: 0}
     - target: {fileID: 4266924983338212081, guid: d0b46e4a1d63c2d4d9dbf3d5f02484cb, type: 3}
       propertyPath: m_Enabled
@@ -25,11 +25,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4266924983338212086, guid: d0b46e4a1d63c2d4d9dbf3d5f02484cb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -102.23056
+      value: -101.73056
       objectReference: {fileID: 0}
     - target: {fileID: 4266924983338212086, guid: d0b46e4a1d63c2d4d9dbf3d5f02484cb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -18.784374
+      value: -18.784378
       objectReference: {fileID: 0}
     - target: {fileID: 4266924983338212086, guid: d0b46e4a1d63c2d4d9dbf3d5f02484cb, type: 3}
       propertyPath: m_LocalPosition.z
