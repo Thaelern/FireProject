@@ -1,6 +1,7 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class AudioManagerScript : MonoBehaviour
@@ -13,31 +14,27 @@ public class AudioManagerScript : MonoBehaviour
 
     public bool playerCanChangeSong;
 
-
-    private void Start()
+    private void Awake()
     {
-        PlaySong(2);
-    }
 
-    private void Update()
-    {
-        if(playerCanChangeSong == true)
+        /*if (SceneManager.GetActiveScene().name == "tt")
         {
-            if (Input.GetKeyDown(KeyCode.H))
-            {
-                PlaySong(0);
-            }
+            Debug.Log("tt loaded");
+            PlaySong(1);
+        }
 
-            if (Input.GetKeyDown(KeyCode.J))
-            {
-                PlaySong(1);
-            }
-            if (Input.GetKeyDown(KeyCode.T))
-            {
-                PlaySong(2);
-            }
-        } 
+        if (SceneManager.GetActiveScene().name == "Lasse_MainMenu")
+        {
+            Debug.Log("main menu");
+            PlaySong(0);
+        }
+        */
+
+
+        PlaySong(1);
+
     }
+
 
     private void PlaySong(int songtrack)
     {

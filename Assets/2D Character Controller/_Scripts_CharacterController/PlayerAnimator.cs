@@ -29,6 +29,8 @@ namespace TarodevController {
         private ParticleSystem.MinMaxGradient _currentGradient;
         private Vector2 _movement;
 
+        [SerializeField] public AudioClip[] runningGrass;
+
         void Awake() => _player = GetComponentInParent<IPlayerController>();
 
         void Update() {
@@ -53,6 +55,10 @@ namespace TarodevController {
 
                     //triggerPlayer.GetComponent<Camera_ChangeBehaviour_Script>().cameraFollowEast();
                     triggerPlayer.GetComponent<Camera_ChangeBehaviour_Script>().CameraFollowRightFunc();
+
+                    // plays the cat running on grass
+                    //_source.PlayOneShot(runningGrass[0]);
+
                 }
                 else if (_player.Input.X < 0)
                 {
@@ -65,6 +71,11 @@ namespace TarodevController {
                 }
                 
             }
+
+
+
+            // Lasse Audio
+
 
 
 

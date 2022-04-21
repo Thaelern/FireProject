@@ -229,18 +229,18 @@ MonoBehaviour:
       m_ExpandedIDs: 8e9dffff70d2ffffd0edffffb2f8ffff16fbffff046a00000a6a00003c6d0000206f0000c46f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: --System Managers --
+        m_OriginalName: --System Managers --
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -27908
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -746,18 +746,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c62300005c6d0000a2c700009ec70000f4b900005e6d00005a6d0000666c00008efc0000766d00004a860200
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: PlayerAnimator
+      m_OriginalName: PlayerAnimator
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 10444
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 9}
     m_CreateAssetUtility:

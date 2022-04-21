@@ -283,8 +283,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 17
+  m_fontSizeBase: 17
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -769,6 +769,7 @@ MonoBehaviour:
   StartMenu_Canvas: {fileID: 791366217}
   LevelSelectScene_Canvas: {fileID: 8925601385518305857}
   PauseMenu_Canvas: {fileID: 817642748830539854}
+  Credit_Scene_Canvas: {fileID: 0}
   isPauseMenuActive: 0
   NPCGreet_Text: {fileID: 495304319}
 --- !u!1 &1195073777
@@ -1360,7 +1361,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Settings
+  m_text: 'Extra
 
 '
   m_isRightToLeft: 0
@@ -1726,9 +1727,8 @@ MonoBehaviour:
   Music_Manager: {fileID: 489851036}
   SFX_Manager: {fileID: 0}
   trackList:
-  - {fileID: 8300000, guid: 075649abfa18b4490ba66ae2d3b42933, type: 3}
-  - {fileID: 8300000, guid: 58bd08ff223b04ca492d30051914c284, type: 3}
-  - {fileID: 8300000, guid: 6688a4cfab81d458da92a12e51348c1a, type: 3}
+  - {fileID: 8300000, guid: 69ef99fc23c45478c9fd1b610832d201, type: 3}
+  - {fileID: 8300000, guid: cb155445a39f149c3b81f59524c0e66a, type: 3}
   playerCanChangeSong: 0
 --- !u!1 &116342764443882285
 GameObject:
@@ -2529,7 +2529,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2552447802028516165}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2079432276}
+        m_TargetAssemblyTypeName: LevelManagerScript, Assembly-CSharp
+        m_MethodName: FuncQuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4365631225267722278
 GameObject:
   m_ObjectHideFlags: 0
