@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 6169508456101480573}
   - component: {fileID: 6169508456101480574}
   - component: {fileID: 6169508456101480572}
-  - component: {fileID: 3490338636659518101}
+  - component: {fileID: 7684197218214174735}
   m_Layer: 0
   m_Name: EnemyWallChecker
   m_TagString: Untagged
@@ -217,7 +217,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.2554615}
   m_EdgeRadius: 0
---- !u!114 &3490338636659518101
+--- !u!114 &7684197218214174735
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
