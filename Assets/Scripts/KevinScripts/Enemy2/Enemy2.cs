@@ -51,7 +51,6 @@ public class Enemy2 : MonoBehaviour
 
         transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
         walkSpeed *= -1;
-        mustTurn = false;
     }
 
 
