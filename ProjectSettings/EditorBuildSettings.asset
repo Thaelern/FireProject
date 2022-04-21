@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lasse_LevelSelect_Scene.unity
     guid: d723bf1c3eab949ee8322db8974eda62
+  - enabled: 1
+    path: Assets/Scenes/IntroWithSound.unity
+    guid: 6a13f95ae54f64ef9a51ae18e924926e
   m_configObjects: {}

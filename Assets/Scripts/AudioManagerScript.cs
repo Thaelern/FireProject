@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -16,20 +16,8 @@ public class AudioManagerScript : MonoBehaviour
 
     private void Awake()
     {
-
-        if (SceneManager.GetActiveScene().name == "tt")
-        {
-            Debug.Log("tt loaded");
-            PlaySong(1);
-        }
-
-        if (SceneManager.GetActiveScene().name == "Lasse_MainMenu")
-        {
-            Debug.Log("main menu");
-            PlaySong(0);
-        }
+        PlaySong(1);
     }
-
 
     private void PlaySong(int songtrack)
     {
@@ -38,6 +26,11 @@ public class AudioManagerScript : MonoBehaviour
         // loops the song so the player is not without music
         Music_Manager.loop = true;
         Music_Manager.Play();
+    }
+
+    public void StopMusic()
+    {
+        Music_Manager.Stop();
     }
 
     

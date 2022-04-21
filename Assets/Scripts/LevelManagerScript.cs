@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -14,6 +14,8 @@ public class LevelManagerScript : MonoBehaviour
     static public event Action OnLevelSelectSceneLeft;
     static public event Action OnLeaveSettingsSceneLeft;
 
+    public GameObject audioManagerObject;
+
 
     public void FuncEnterLevel01()
     {
@@ -28,7 +30,7 @@ public class LevelManagerScript : MonoBehaviour
 
     public void FuncLoadSettingsLevel()
     {
-        SceneManager.LoadScene("Lasse_Settings_Menu");
+        SceneManager.LoadScene("IntroWithSound");
     }
 
 
@@ -54,6 +56,13 @@ public class LevelManagerScript : MonoBehaviour
     {
         OnLeaveSettingsSceneLeft.Invoke();
     }
+
+    // disable audio manager
+    public void DisableAudioManager()
+    {
+        audioManagerObject.SetActive(false);
+    }
+
 
     public void FuncQuitGame()
     {

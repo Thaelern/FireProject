@@ -10065,7 +10065,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7781403, y: 1}
+    m_SensorSize: {x: 1.7774141, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -20242,8 +20242,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7447724287842984914}
   - component: {fileID: 7447724287842984912}
-  - component: {fileID: 8408773378126237783}
   - component: {fileID: 2125491032}
+  - component: {fileID: 912131581}
   m_Layer: 7
   m_Name: Player_KattePus
   m_TagString: Player
@@ -20306,20 +20306,6 @@ MonoBehaviour:
   _jumpBuffer: 0.1
   _jumpEndEarlyGravityModifier: 3
   _freeColliderIterations: 10
---- !u!114 &8408773378126237783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7447724287842984913}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e54fc0e98f9b4b4f8dd46a37607a941, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bullet: {fileID: 2107412047324908203, guid: 2a015ead3f7264499be9b641bced79eb, type: 3}
-  bulletDespawnTimer: 10
 --- !u!114 &2125491032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20332,6 +20318,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79c2ee8869d0cd14fa97c47f007add97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &912131581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7447724287842984913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 960160a58f3940448871f28c062b00f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
 --- !u!1 &7447724288631886088
 GameObject:
   m_ObjectHideFlags: 0
@@ -20496,14 +20495,18 @@ MonoBehaviour:
   _moveParticles: {fileID: 4476183656182821021}
   _landParticles: {fileID: 4476183656072299206}
   _footsteps:
-  - {fileID: 8300000, guid: 5d94063f45167b04ab62585e436da58c, type: 3}
-  - {fileID: 8300000, guid: b5803c17557c59c40bf3a6d69cb46cb3, type: 3}
-  - {fileID: 8300000, guid: 1876767bf7cbf284394dc3817af9593c, type: 3}
+  - {fileID: 8300000, guid: 55eaf56ba2a01494ebddb9986021f33b, type: 3}
+  - {fileID: 8300000, guid: cbd99f1bf5b754830b1c78c1212a5a59, type: 3}
+  - {fileID: 8300000, guid: 967198821d5c54eaca02b15be36b56b0, type: 3}
+  - {fileID: 8300000, guid: d8765b0eef77c412589ae7f6ccdc9ed6, type: 3}
+  - {fileID: 8300000, guid: a3c0c5f9dbc474485ade73caedfacf12, type: 3}
   _maxTilt: 5
   _tiltSpeed: 30
   _maxIdleSpeed: 2
   _maxParticleFallSpeed: -40
   triggerPlayer: {fileID: 5656991376729070903}
+  runningGrass:
+  - {fileID: 8300000, guid: c38ee9c24241848b3bc2330a9688cd96, type: 3}
 --- !u!82 &4476183655841449696
 AudioSource:
   m_ObjectHideFlags: 0
